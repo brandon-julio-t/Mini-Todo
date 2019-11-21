@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block title %}Create{% endblock %}
+
+{% block content %}
+	<form action="/{{ action }}" method="post">
+		{% if form.todo_content.errors %}
+			<ul>
+				{% for error in form.todo_content.errors %}
+					<li class="text-danger">{{ error }}</li>
+				{% endfor %}
+			</ul>
+		{% endif %}
+
+		<div class="form-group">
+			<label for="content">{{ form.todo_content.label }}: </label>
+			{{ form.todo_content(class='form-control') }}
+		</div>
+		
+		{{ form.submit(class='btn btn-primary') }}
+	</form>
+{% endblock %}

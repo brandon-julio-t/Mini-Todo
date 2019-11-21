@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+
+{% block title %}Index{% endblock %}
+
+{% block content %}
+	<ul>
+		{% for todo in todos %}
+			<li class="mt-4 mb-4">
+				<p class="mb-2">{{ todo.todo_content }}</p>
+				<div class="btn-group" role="group" aria-label="Actions buttons">
+					<form action="/{{ todo.id }}/edit" class="btn btn-secondary p-0" method="get">
+						<button type="submit" class="btn btn-secondary">Edit</button>
+					</form>
+					<form action="/{{ todo.id }}/delete" class="btn btn-danger p-0" method="post">
+						<button type="submit" class="btn btn-danger">Delete</button>
+					</form>
+				</div>
+			</li>
+		{% endfor %}
+	</ul>
+{% endblock %}
