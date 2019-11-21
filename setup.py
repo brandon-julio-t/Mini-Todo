@@ -1,9 +1,8 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
-    name='mini-todo',
-    packages=find_packages(),
-    include_package_data=True,
+    name='mini_todo',
+    packages=['mini_todo'],
     install_requires=[
         'flask',
         'flask_migrate',

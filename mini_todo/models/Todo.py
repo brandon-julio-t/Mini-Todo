@@ -1,6 +1,6 @@
 from Lib import dataclasses
 
-from app import db
+from mini_todo import db
 
 
 @dataclasses.dataclass

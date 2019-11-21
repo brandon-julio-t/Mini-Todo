@@ -1,8 +1,8 @@
 from flask import render_template, request, flash, redirect, url_for
 
-from app import app, db
-from models.Todo import Todo
-from models.TodoForm import TodoForm
+from mini_todo import app, db
+from mini_todo.models.Todo import Todo
+from mini_todo.models.TodoForm import TodoForm
 
 # ------
 # Create

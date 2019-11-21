@@ -18,4 +18,4 @@ db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
 if app and db:
-    import views  # Go to 'views.py'
+    import mini_todo.views  # Go to 'views.py'
