@@ -2,7 +2,7 @@
 
 A mini Flask project
 
-## How to launch (Windows)
+## How to Launch (Windows)
 
 1. `git clone` this repository
 1. `cd` into the clonned repository's directory
