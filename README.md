@@ -9,6 +9,7 @@ A mini Flask project
 - Uses [Flask-Migrate](https://flask-migrate.readthedocs.io/en/latest/) as database migration
 - Uses [Flask SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/) as database ORM
 - Uses [Bootstrap](https://getbootstrap.com/) to design front-end
+- Uses [SQLite](https://sqlite.org/index.html) as database engine
 
 ## How to Launch (Windows)
 
