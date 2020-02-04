@@ -2,6 +2,13 @@
 
 A mini Flask project
 
+## What I Implemented
+
+- CRUD action
+- Form validation with [WTForms](https://wtforms.readthedocs.io/en/stable/)
+- Database migration with [Flask-Migrate](https://flask-migrate.readthedocs.io/en/latest/)
+- Database ORM with [Flask SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/)
+
 ## How to Launch (Windows)
 
 1. `git clone` this repository
