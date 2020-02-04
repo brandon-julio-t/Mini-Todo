@@ -4,10 +4,11 @@ A mini Flask project
 
 ## What I Implemented
 
-- CRUD action
-- Form validation with [WTForms](https://wtforms.readthedocs.io/en/stable/)
-- Database migration with [Flask-Migrate](https://flask-migrate.readthedocs.io/en/latest/)
-- Database ORM with [Flask SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/)
+- Implemented CRUD action
+- Uses [WTForms](https://wtforms.readthedocs.io/en/stable/) as form validation
+- Uses [Flask-Migrate](https://flask-migrate.readthedocs.io/en/latest/) as database migration
+- Uses [Flask SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/) as database ORM
+- Uses [Bootstrap](https://getbootstrap.com/) to design front-end
 
 ## How to Launch (Windows)
 
