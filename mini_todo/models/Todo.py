@@ -1,9 +1,9 @@
-from Lib import dataclasses
+from dataclasses import dataclass
 
 from mini_todo import db
 
 
-@dataclasses.dataclass
+@dataclass
 class Todo(db.Model):
     id: int = db.Column(
         db.Integer,

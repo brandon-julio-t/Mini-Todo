@@ -1,0 +1,6 @@
+dataclasses
+flask
+flask_migrate
+flask_sqlalchemy
+gunicorn
+wtforms
